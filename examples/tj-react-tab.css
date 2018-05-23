@@ -1,0 +1,44 @@
+
+.tj-react-tab {
+    margin-top:30px;
+}
+
+.tj-react-tab-bar {
+    border-bottom:1px solid #2c65a5;
+    margin-left:35px;
+    margin-right:35px;
+    height:30px;
+}
+
+.tj-react-tab-bar > li {
+    float:left;
+    color:#2c65a5;
+    font-size:12pt;
+    font-weight:600;
+    min-width:80px;
+    height:30px;
+    line-height:30px;
+    cursor:pointer;
+    text-align:center;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.tj-react-tab-bar > li.active {
+    color:#fff;
+    background-color:#2c65a5;
+    cursor:default;
+}
+
+.tj-react-tab-body {
+    margin-left:35px;
+    margin-right:35px;
+}
+
+.tj-react-tab-body > li {
+    display:none;
+}
+
+.tj-react-tab-body > li.active {
+    display:block;
+}

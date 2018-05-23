@@ -1,0 +1,45 @@
+{
+  "name": "tj-react-auth-editor",
+  "version": "0.1.0",
+  "description": "权限配置组件",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./index.js",
+    "build": "npm run clean && webpack",
+    "dev": "webpack-dev-server --config ./examples/webpack.config.dev.js",
+    "start": "npm run dev",
+    "prepublish": "npm run build",
+    "postpublish": "npm run clean"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhizao/tj-react-auth-editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhizao/tj-react-auth-editor/issues"
+  },
+  "homepage": "https://github.com/zhizao/tj-react-auth-editor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "react-cropper": "^1.0.1",
+    "tj-arr2tree": "^0.2.3",
+    "tj-react-tab": "^0.1.1"
+  }
+}

@@ -1,0 +1,60 @@
+
+.tj-react-auth-editor .treebox {
+    font-size:0;
+    clear:both;
+    margin-top:5px;
+}
+
+.tj-react-auth-editor .treebox dd {
+    float:left;
+    width: 33%; 
+}
+
+.tj-react-auth-editor .treebox span {
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    cursor:pointer; 
+}
+
+.tj-react-auth-editor .treebox img {
+    width:14px;
+    height:14px;
+}
+
+.tj-react-auth-editor .treebox .features {
+    margin-left:25px;
+    margin-top:25px;
+}
+
+.tj-react-auth-editor .treebox .feature-node {
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+    color:#000;
+    cursor: pointer;
+    clear: none;
+    border: 1px solid #326499;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 13px;
+}
+
+.tj-react-auth-editor .treebox .feature-node.checked {
+    background-color: #326499;
+    color: #fff;
+}
+
+.tj-react-auth-editor .treebox .menu-node {
+    margin-top:25px;
+    margin-left:25px
+}
+
+.tj-react-auth-editor .treebox .menu-children {
+    clear:both;
+}
+
+.tj-react-auth-editor .treebox .level1 {
+    margin-top: 20px;
+}
